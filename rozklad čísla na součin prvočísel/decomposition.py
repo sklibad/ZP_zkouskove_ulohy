@@ -10,6 +10,7 @@ def decomp_into_prime_num(n):
     num = 0
     exp = 0
     prime = 2
+
     while n > 1:
         if num == 0:
             num = prime
@@ -35,4 +36,4 @@ def decomp_into_prime_num(n):
             print("{}^{}".format(num, exp))
         
 #spuštění funkce    
-decomp_into_prime_num()
+decomp_into_prime_num(100)
